@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props) {
   if (!guide) {
     return {
       title: "Not Found",
+      
     };
   }
 
