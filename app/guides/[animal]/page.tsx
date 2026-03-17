@@ -38,13 +38,13 @@ export default async function GuidePage({ params }: Props) {
     notFound();
   }
 
-  // Map animal steps to image paths
+
   const stepImageMap: Record<string, string> = {
-    "add-animal": `/images/step-add-animal.jpg`,
-    "weight-history": `/images/step-weight-history.jpg`,
-    "vaccination-history": `/images/step-vaccination.jpg`,
-    "health-notes": `/images/step-health-notes.jpg`,
-    "mark-for-sale": `/images/step-sale.jpg`,
+    "add-animal": `/kid-feeding-black-cow.jpg`,
+    "weight-history": `/why-weighing-your-livestock-is-crucial-for-animal.webp`,
+    "vaccination-history": `/veterinarian-doctor-with-tablet-holding-thumbs-up-pigpen-pig-farm.jpg`,
+    "health-notes": `/veterinarian-animal-doctor-cattle-farm-checking-health-cows.jpg`,
+
   };
 
   return (
