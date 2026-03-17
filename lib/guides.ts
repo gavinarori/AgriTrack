@@ -18,7 +18,7 @@ export const ANIMALS: AnimalGuide[] = [
     id: "cow",
     name: "Cow",
     description: "Dairy and beef cattle management",
-    image: "/images/cow.jpg",
+    image: "/portrait-beautiful-brown-cow.jpg",
     steps: [
       {
         id: "add-animal",
@@ -60,23 +60,13 @@ export const ANIMALS: AnimalGuide[] = [
           { name: "date", type: "date", label: "Date" },
         ],
       },
-      {
-        id: "mark-for-sale",
-        title: "Mark Animal For Sale",
-        description: "List the animal for sale and share with buyers",
-        fields: [
-          { name: "price", type: "number", label: "Price" },
-          { name: "status", type: "select", label: "Status" },
-          { name: "description", type: "textarea", label: "Description" },
-        ],
-      },
     ],
   },
   {
     id: "sheep",
     name: "Sheep",
     description: "Wool and meat sheep management",
-    image: "/images/sheep.jpg",
+    image: "/vertical-shot-sheep-nature.jpg",
     steps: [
       {
         id: "add-animal",
@@ -118,23 +108,14 @@ export const ANIMALS: AnimalGuide[] = [
           { name: "date", type: "date", label: "Date" },
         ],
       },
-      {
-        id: "mark-for-sale",
-        title: "Mark Animal For Sale",
-        description: "List the animal for sale and share with buyers",
-        fields: [
-          { name: "price", type: "number", label: "Price" },
-          { name: "status", type: "select", label: "Status" },
-          { name: "description", type: "textarea", label: "Description" },
-        ],
-      },
+     
     ],
   },
   {
     id: "goat",
     name: "Goat",
     description: "Dairy and meat goat management",
-    image: "/images/goat.jpg",
+    image: "/adorable-black-goat-with-brown-patterns-zoo.jpg",
     steps: [
       {
         id: "add-animal",
@@ -174,16 +155,6 @@ export const ANIMALS: AnimalGuide[] = [
         fields: [
           { name: "notes", type: "textarea", label: "Health Notes" },
           { name: "date", type: "date", label: "Date" },
-        ],
-      },
-      {
-        id: "mark-for-sale",
-        title: "Mark Animal For Sale",
-        description: "List the animal for sale and share with buyers",
-        fields: [
-          { name: "price", type: "number", label: "Price" },
-          { name: "status", type: "select", label: "Status" },
-          { name: "description", type: "textarea", label: "Description" },
         ],
       },
     ],
