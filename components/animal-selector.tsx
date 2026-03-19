@@ -20,7 +20,7 @@ export function AnimalSelector({ animals }: AnimalSelectorProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {animals.map((animal) => (
-        <Link key={animal.id} href={`/guides/${animal.id}`} className="group">
+        <Link key={animal.id} href={`/guide/${animal.id}`} className="group">
           <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary/50 cursor-pointer">
             <div className="relative h-64 w-full overflow-hidden bg-muted">
               <Image
@@ -29,6 +29,8 @@ export function AnimalSelector({ animals }: AnimalSelectorProps) {
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 33vw"
+                loading="eager"
+                priority
               />
             </div>
             <div className="p-6">
